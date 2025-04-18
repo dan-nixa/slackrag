@@ -8,5 +8,9 @@
     "**/*.tsx",
     ".next/types/**/*.ts"
   ],
+  "paths": {
+    "@repo/queue": ["../queue/src"],
+    "@repo/google": ["../google/src"]
+  },
   "exclude": ["node_modules"]
 }

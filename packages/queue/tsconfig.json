@@ -1,0 +1,24 @@
+{
+  "extends": "@repo/typescript-config/base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@repo/database": ["../database/src"],
+    },
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "target": "ES2020",
+  "module": "ESNext",
+"moduleResolution": "bundler"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["dist", "node_modules"],
+  "references": [
+    { "path": "../database" },
+    { "path": "../google" }
+ 
+  ]
+}

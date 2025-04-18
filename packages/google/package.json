@@ -1,0 +1,27 @@
+{
+  "name": "@repo/google",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "dev": "echo 'Add dev script here'",
+    "test": "echo 'Add test script here'",
+    "lint": "echo 'Add lint script here'"
+  },
+  "dependencies": {
+    "@repo/typescript-config": "*",
+    "googleapis": "^148.0.0",
+    "@repo/database": "*"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "tsup": "^8.4.0"
+  }
+}

@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name": "web",
   "workspaces": [
     "apps/*",
     "packages/*"
@@ -29,7 +30,6 @@
     "node": ">=18"
   },
   "packageManager": "yarn@1.22.19",
-  "name": "with-prisma",
   "dependencies": {
     "@prisma/client": "latest"
   }
